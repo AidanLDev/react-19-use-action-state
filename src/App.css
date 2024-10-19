@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.personal-form-inputs {
+  display: flex;
+  gap: 1.5rem;
+  max-width: 40vw;
+}
+
+.text-input {
+  font-size: 0.75em;
+  padding: 0.25rem;
+}
+
+.submit-button {
+  background: #1a1a1a;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  margin-top: 1rem;
+}
+.submit-button:hover {
+  background: #333;
+}
